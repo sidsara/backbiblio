@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./css/login.css" />
+    <title>login form </title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href="/"><img class="logo" src="img/logo.png" alt="home page"></a>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+          <a href="#">Services</a>
+          <a href="#">About us</a>
+          <a href="#">FAQs</a>
+        </div>
+      </nav>
+    </header>
+    
+   <div class="container">
+    <div class="photo">
+       <img class="ph"src="img/1-removebg-preview .png">
+   </div>
+   <form class="id" action="/login" method="post" >
+      <input type="email" class="input" placeholder="Email" name="email" id="email">
+      <input type="password" class="input" placeholder="Password" name="password" id="password">
+      <button class="bt1">Login</button>
+      <button class="bt2">Create new account</button>
+   </form>   
+      
+        </div>
+  </div>
+  <footer><div class="containerfooter">
+    <div class="part1">
+     <div class="logoinfo"> <a href="homepage.html"> <img class="logof" src="img/logo.png"></a> 
+        <p class="hadra">is dedicated to providing you with funds for whatever cause you need, <br>and also making donations to those in need.</p>
+       </div>
+      <div class="fory"><p class="fy">For You</p>
+     <a class="hadra" href="http://">donate now</a><a class="hadra" href="http://">receive donations</a></div>
+    <div class="reseaux">
+         <a href="facebook.com"> <img class="f" src="img/icon _facebook squared_.png"></a>
+        <a href="instagram.com"><img class="f" src="img/icon _instagram_.png"></a>
+        <a href="youtube.com"><img class="f" src="img/icon _youtube_.png"></a>
+        <a href="tiktok.com"><img class="f" src="img/icon tiktok.png"></a>
+    </div></div>
+                <hr>
+<p class="r">Reasons to Donate </p>
+<div class="reas">
+<div class="reas1">
+<a class="hadra" href="http://">Disease research and treatment</a>
+<a class="hadra" href="http://"> Supporting victims of natural disasters</a></div>
+
+<div class="reas2"><a class="hadra" href="http://">Providing education for underprivileged groups</a>
+<a class="hadra" href="http://">Other causes</a></div>
+
+<div class="reas3"><a class="hadra" href="http://">Providing aid to the impoverished</a>
+<a class="hadra" href="http://">Funding scientific research</a> </div>
+<div class="reas4">
+<a class="hadra" href="http://">Supporting social programs for disadvantaged children</a> 
+    <a class="hadra" href="http://">supporting the victims of occupation in Palestine</a></div></div>
+
+
+</div>
+<hr>
+<p class="we">We love our users!</p>
+</div>
+
+</footer>
+    
+  </body>
+
+  <script>const hamburger = document.querySelector('.hamburger');
+   const navLink = document.querySelector('.nav__link');
+   
+   hamburger.addEventListener('click', () => {
+     navLink.classList.toggle('hide');
+   });</script>
+</html>
